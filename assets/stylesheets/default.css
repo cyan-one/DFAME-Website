@@ -1484,18 +1484,6 @@ input:-ms-input-placeholder {
 
 @font-face {
   font-family: 'Syne';
-  src: url('assets/fonts/Syne-Italic.woff2') format('woff2'),
-      url('assets/fonts/Syne-Italic.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
- /* Better Font Rendering =========== */
- -webkit-font-smoothing: antialiased;
- -moz-osx-font-smoothing: grayscale; 
-}
-
-@font-face {
-  font-family: 'Syne';
   src: url('assets/fonts/Syne-Bold.woff2') format('woff2'),
       url('assets/fonts/Syne-Bold.woff') format('woff');
   font-weight: bold;
@@ -1516,79 +1504,6 @@ input:-ms-input-placeholder {
  /* Better Font Rendering =========== */
  -webkit-font-smoothing: antialiased;
  -moz-osx-font-smoothing: grayscale; 
-}
-
-@font-face {
-  font-family: 'Syne Mono';
-  src: url('assets/fonts/SyneMono-Regular.woff2') format('woff2'),
-      url('assets/fonts/SyneMono-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
- /* Better Font Rendering =========== */
- -webkit-font-smoothing: antialiased;
- -moz-osx-font-smoothing: grayscale; 
-}
-
-@font-face {
-  font-family: 'Syne Extra';
-  src: url('assets/fonts/Syne-Extra.woff2') format('woff2'),
-      url('assets/fonts/Syne-Extra.woff') format('woff');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
- /* Better Font Rendering =========== */
- -webkit-font-smoothing: antialiased;
- -moz-osx-font-smoothing: grayscale; 
-}
-
-@font-face {
-  font-family: 'Syne';
-  src: url('assets/fonts/Syne-Italic.woff2') format('woff2'),
-      url('assets/fonts/Syne-Italic.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
- /* Better Font Rendering =========== */
- -webkit-font-smoothing: antialiased;
- -moz-osx-font-smoothing: grayscale; 
-}
-
-@font-face {
-  font-family: 'Syne';
-  src: url('assets/fonts/Syne-Bold.woff2') format('woff2'),
-      url('assets/fonts/Syne-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
- /* Better Font Rendering =========== */
- -webkit-font-smoothing: antialiased;
- -moz-osx-font-smoothing: grayscale; 
-}
-
-@font-face {
-  font-family: 'Syne Mono';
-  src: url('assets/fonts/SyneMono-Regular.woff2') format('woff2'),
-      url('assets/fonts/SyneMono-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; 
-}
-
-
-@font-face {
-  font-family: 'Syne';
-  src: url('assets/fonts/Syne-Regular.woff2') format('woff2'),
-      url('assets/fonts/Syne-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; 
 }
 
 .socicon-internet:before {

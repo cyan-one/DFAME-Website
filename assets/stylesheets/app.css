@@ -23,6 +23,7 @@ Author URI: http://www.AetherThemes.com
  * Licensed under MIT Open Source
  */
  #gradient-canvas {
+  z-index: -5;
   width:100%;
   height:100%;
   --gradient-color-1: #635BFF; 
@@ -2457,8 +2458,7 @@ html {
 /* =Layout Specific
 -------------------------------------------------------------- */
 .app {
-  background-color: #0060ff;
-  background-image: url('../images/app/hero/hero-bg.jpg');
+  background-color: #ffffff;
   background-position: top center;
   background-repeat: no-repeat;
   color: #fafafa; }

@@ -22,13 +22,12 @@ Author URI: http://www.AetherThemes.com
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
- #gradient-canvas {
-  z-index: -5;
+#gradient-canvas {
   width:100%;
   height:100%;
   --gradient-color-1: #635BFF; 
   --gradient-color-2: #3BDEFF; 
-  --gradient-color-3: #ffffff;  
+  --gradient-color-3: #C218A7;  
   --gradient-color-4: #E50081;
 }
 
@@ -2275,7 +2274,6 @@ input:-ms-input-placeholder {
 
 /* Helpers */
 .wrapper, .hero-content, .highlights, .gallery, .clients, .footer {
-  z-index: 999;
   max-width: 75rem;
   margin-right: auto;
   margin-left: auto; }
@@ -2459,7 +2457,8 @@ html {
 /* =Layout Specific
 -------------------------------------------------------------- */
 .app {
-  background-color: #ffffff;
+  background-color: #0060ff;
+  background-image: url('../images/app/hero/hero-bg.jpg');
   background-position: top center;
   background-repeat: no-repeat;
   color: #fafafa; }

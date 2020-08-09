@@ -22,6 +22,15 @@ Author URI: http://www.AetherThemes.com
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
+ #gradient-canvas {
+  width:100%;
+  height:100%;
+  --gradient-color-1: #635BFF; 
+  --gradient-color-2: #3BDEFF; 
+  --gradient-color-3: #C218A7;  
+  --gradient-color-4: #E50081;
+}
+
 .row {
   max-width: 75rem;
   margin-right: auto;

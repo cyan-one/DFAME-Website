@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html class="app" lang="en">
+<html class="basic" lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>App Layout | Aspekt</title>
+    <title>Basic Layout | Aspekt</title>
 
     <!-- Behavioral Meta Data -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -46,21 +46,19 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
 
-<<<<<<< HEAD
     <link href="assets/stylesheets/basic.css" rel="stylesheet" />
-=======
-    <link href="assets/stylesheets/app.css" rel="stylesheet" />
->>>>>>> parent of d82f262... new index page
 </head>
 
 <body>
     <!-- Main Content -->
     <main>
         <!-- Hero -->
+        <canvas id="gradient-canvas"></canvas>
+
+        <!-- Hero -->
         <section id="hero" class="hero">
             <div class="hero-content">
-                <div class="hero-bg">
-                    <canvas id="gradient-canvas">
+                <div class="hero-header">
                     <div class="-logo">
                         <a href="https://www.aetherthemes.com/demo/aspekt/">
                             <svg height="58" viewBox="0 0 191 58" width="191" xmlns="http://www.w3.org/2000/svg">
@@ -78,18 +76,29 @@
                         </a>
                     </div>
 
-                    <div class="-content">
-                        <h1>Aspekt is coming.</h1>
-                        <p class="sub-title">The app revolution begins 2019</p>
+                    <div class="-cta js--localscroll">
+                        <a href="mailto:contact@aetherthemes.com" class="button button--hollow">Get in touch</a>
+                    </div>
+                </div>
 
-                        <div class="cta">
-                            <a href="#"><img src="assets/images/app/hero/app-store.svg" width="202" height="60" alt="App store" /></a>
-                            <a href="#"><img src="assets/images/app/hero/google-play.svg" width="202" height="60" alt="Google play" /></a>
-                        </div>
+                <div class="hero-banner">
+                    <h1>Get ready.</h1>
+                    <p class="sub-title">Our website is coming in 2019</p>
+
+                    <div class="-cta">
+                        <a href="#section1"> <i data-feather="arrow-down"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-footer">
+                    <div class="-counter">
+                        <p><small>Launching in</small></p>
+                        <div id="counter--js" class="time"></div>
                     </div>
 
-                    <div class="-footer">
-                        <p>Follow us</p>
+                    <div class="-social">
+                        <p><small>Follow us</small></p>
                         <ul>
                             <li><a href="#"><span class="socicon-twitter"></span></a></li>
                             <li><a href="#"><span class="socicon-facebook"></span></a></li>
@@ -98,55 +107,48 @@
                             <li><a href="#"><span class="socicon-medium"></span></a></li>
                         </ul>
                     </div>
-                </canvas>      
-                </div>
-
-                <div class="hero-image">
-                    <img src="assets/images/app/hero/phone-render.png" width="360" alt="Phone render" />
                 </div>
             </div>
-
-            <img src="assets/images/app/hero/shadow.png" class="hero-shadow" alt="Shadow" />
         </section>
 
         <!-- Highlights -->
-        <section class="highlights styled">
+        <section id="section1" class="highlights styled">
             <hr>
             <div class="highlights-header">
-                <h6 class="do-unstyle">Some of the features</h6>
-                <h2>What it does.</h2>
+                <h6>About us</h6>
+                <h2>Who we are.</h2>
             </div>
 
             <div class="highlights-icon-box">
                 <div class="-icon">
-                    <i data-feather="cloud-drizzle"></i>
+                    <i data-feather="bar-chart"></i>
                 </div>
 
                 <div class="-content">
-                    <h5>Precise forecast</h5>
-                    <p>Of course it’s precise, otherwise who would use this app? Thanks to weather forecasts for this feature.</p>
-                </div>
-            </div>
-
-            <div class="highlights-icon-box">
-                <div class="-icon">
-                    <i data-feather="user"></i>
-                </div>
-
-                <div class="-content">
-                    <h5>Personal assistant</h5>
-                    <p>A weather app that is also your personal assistant, you didn’t see that coming, did you?</p>
+                    <h5>Grand results</h5>
+                    <p>Of course we have a grand strategy, otherwise who would need our services?</p>
                 </div>
             </div>
 
             <div class="highlights-icon-box">
                 <div class="-icon">
-                    <i data-feather="cpu"></i>
+                    <i data-feather="box"></i>
                 </div>
 
                 <div class="-content">
-                    <h5>Machine learning</h5>
-                    <p>This app utilises machine learning, we don’t know how, but this is a buzz word so we threw it in there.</p>
+                    <h5>Out of the box</h5>
+                    <p>A team of professionals that are also super-awesome, you didn’t see that coming, did you?</p>
+                </div>
+            </div>
+
+            <div class="highlights-icon-box">
+                <div class="-icon">
+                    <i data-feather="briefcase"></i>
+                </div>
+
+                <div class="-content">
+                    <h5>Your business</h5>
+                    <p>We use machine learning to help you, we don’t know how, but this is a buzz word so we threw it in there.</p>
                 </div>
             </div>
 
@@ -156,19 +158,14 @@
         <!-- Gallery -->
         <div class="gallery">
             <div class="gallery-grid">
-                <div class="-image columns large-4 medium-4 small-12">
-                    <a class="lightbox--js" href="assets/images/app/gallery/image-1.jpg">
-                        <img src="assets/images/app/gallery/image-1.jpg" width="264" alt="Image 1" />
+                <div class="-image columns large-4 large-offset-1 medium-6 small-12">
+                    <a class="lightbox--js" href="assets/images/basic/gallery/item-1.jpg">
+                        <img src="assets/images/basic/gallery/item-1.jpg" alt="Item 1" />
                     </a>
                 </div>
-                <div class="-image columns large-4 medium-4 small-12">
-                    <a class="lightbox--js" href="assets/images/app/gallery/image-2.jpg">
-                        <img src="assets/images/app/gallery/image-2.jpg" width="264" alt="Image 2" />
-                    </a>
-                </div>
-                <div class="-image columns large-4 medium-4 small-12">
-                    <a class="lightbox--js" href="assets/images/app/gallery/image-3.jpg">
-                        <img src="assets/images/app/gallery/image-3.jpg" width="264" alt="Image 3" />
+                <div class="-image columns large-6 medium-6 small-12">
+                    <a class="lightbox--js" href="assets/images/basic/gallery/item-2.jpg">
+                        <img src="assets/images/basic/gallery/item-2.jpg" alt="Item 2" />
                     </a>
                 </div>
             </div>
@@ -223,19 +220,19 @@
             <div class="clients-content">
                 <div class="-header">
                     <h6 class="do-unstyle">Client testimonials</h6>
-                    <h2>Why use it.</h2>
+                    <h2>Why us.</h2>
                     <p>People love us, that's not bragging that's a fact. We think it may have something to do with how awesome we are.</p>
                 </div>
 
                 <ul class="-clients">
                     <li>
-                        <a href="#"><img src="assets/images/app/clients/client-1.png" width="42" alt="Client 1" /></a>
+                        <a href="#"><img src="assets/images/basic/clients/client-1.png" width="99" alt="Client 1" /></a>
                     </li>
                     <li>
-                        <a href="#"><img src="assets/images/app/clients/client-2.png" width="43" alt="Client 2" /></a>
+                        <a href="#"><img src="assets/images/basic/clients/client-2.png" width="45" alt="Client 2" /></a>
                     </li>
                     <li>
-                        <a href="#"><img src="assets/images/app/clients/client-3.png" width="48" alt="Client 3" /></a>
+                        <a href="#"><img src="assets/images/basic/clients/client-3.png" width="133" alt="Client 3" /></a>
                     </li>
                 </ul>
             </div>
@@ -286,13 +283,18 @@
     <script src="assets/javascripts/libraries/canvasrenderer.js"></script>
 
     <script src="assets/javascripts/plugins/feather.js"></script>
+    <script src="assets/javascripts/plugins/imagesloaded.js"></script>
+    <script src="assets/javascripts/plugins/jquery-countdown.js"></script>
+    <script src="assets/javascripts/plugins/jquery-scrollto.js"></script>
+    <script src="assets/javascripts/plugins/jquery-localscroll.js"></script>
+    <script src="assets/javascripts/plugins/packery.js"></script>
     <script src="assets/javascripts/plugins/magnific-popup.js"></script>
     <script src="assets/javascripts/plugins/slick-carousel.js"></script>
 
     <script src="assets/javascripts/3d/field.js"></script>
 
     <script src="assets/javascripts/main.js"></script>
-    <script src="assets/javascripts/app.js"></script>
+    <script src="assets/javascripts/basic.js"></script>
 </body>
 
 </html>

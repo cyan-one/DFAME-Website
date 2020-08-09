@@ -2351,8 +2351,9 @@ input:-ms-input-placeholder {
 html {
   background-color: #fafafa;
   color: #343434;
-  font-family: "Poppins", "Helvetica Neue", "Arial", sans-serif;
-  font-weight: 400;
+  font-family: 'Syne Extra';
+  font-weight: 900;
+  font-style: normal;
   line-height: 1.8;
   position: relative; }
   html::before {
@@ -2372,7 +2373,9 @@ html {
 -------------------------------------------------------------- */
 /* Headings */
 .styled-h1, h1 {
-  font-family: "Playfair Display", "Times New Roman", Times, serif;
+  font-family: 'Syne Extra';
+  font-weight: 900;
+  font-style: normal;
   font-size: 7.625rem;
   line-height: 1.2; }
   @media screen and (max-width: 64em) {
@@ -2383,8 +2386,9 @@ html {
       font-size: 3.125rem; } }
 
 .styled-h2, h2 {
-  font-family: "Playfair Display", "Times New Roman", Times, serif;
-  font-size: 3.75rem;
+  font-family: 'Syne Extra';
+  font-weight: 900;
+  font-style: normal;
   line-height: 1.2; }
   @media screen and (max-width: 48em) {
     .styled-h2, h2 {
@@ -2394,7 +2398,9 @@ html {
       font-size: 2.5rem; } }
 
 .styled-h3, h3 {
-  font-family: "Playfair Display", "Times New Roman", Times, serif;
+  font-family: 'Syne Extra';
+  font-weight: 900;
+  font-style: normal;
   font-size: 2.5rem;
   line-height: 1.2; }
   @media screen and (max-width: 48em) {

@@ -23,12 +23,10 @@ Author URI: http://www.AetherThemes.com
  * Licensed under MIT Open Source
  */
  #gradient-canvas {
-  position:absolute;
-      left:0;
-      top:0;
+  position:fixed;
       z-index:-1;
   width:100%;
-  height:500px;
+  height:100%;
   --gradient-color-1: #635BFF; 
   --gradient-color-2: #3BDEFF; 
   --gradient-color-3: #ffffff;  

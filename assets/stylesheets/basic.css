@@ -34,6 +34,10 @@ Author URI: http://www.AetherThemes.com
   --gradient-color-4: #E50081;
 }
 
+.highlights .styled {
+  background-color: #ffffff;
+}
+
 .row {
   max-width: 75rem;
   margin-right: auto;

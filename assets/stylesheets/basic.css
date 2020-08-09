@@ -2480,6 +2480,20 @@ html {
 /* =Sections
 -------------------------------------------------------------- */
 /* Hero */
+  .cta a {
+    display: inline-block;
+    transition: transform 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95); }
+  .cta a:hover {
+    transform: translateY(-3px); }
+  @media screen and (max-width: 40em) {
+    .cta a {
+      display: block; }
+      .cta a:not(:last-of-type) {
+        margin-bottom: 0.625rem; } }
+.cta svg {
+  width: 12.5rem;
+  height: 3.6875rem; }
+
 .hero {
   width: 100%; }
   .hero-content {

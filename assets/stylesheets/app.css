@@ -2275,7 +2275,7 @@ input:-ms-input-placeholder {
 
 /* Helpers */
 .wrapper, .hero-content, .highlights, .gallery, .clients, .footer {
-  z-index: 2;
+  z-index: 999;
   max-width: 75rem;
   margin-right: auto;
   margin-left: auto; }

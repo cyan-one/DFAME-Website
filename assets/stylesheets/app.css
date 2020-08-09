@@ -28,7 +28,7 @@ Author URI: http://www.AetherThemes.com
   height:100%;
   --gradient-color-1: #635BFF; 
   --gradient-color-2: #3BDEFF; 
-  --gradient-color-3: #C218A7;  
+  --gradient-color-3: #ffffff;  
   --gradient-color-4: #E50081;
 }
 
@@ -2275,6 +2275,7 @@ input:-ms-input-placeholder {
 
 /* Helpers */
 .wrapper, .hero-content, .highlights, .gallery, .clients, .footer {
+  z-index: 2;
   max-width: 75rem;
   margin-right: auto;
   margin-left: auto; }

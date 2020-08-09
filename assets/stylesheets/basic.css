@@ -1493,6 +1493,9 @@ input:-ms-input-placeholder {
   font-weight: 900;
   font-style: normal;
   font-display: swap;
+ /* Better Font Rendering =========== */
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale; 
 }
 
 @font-face {
@@ -1502,6 +1505,9 @@ input:-ms-input-placeholder {
   font-weight: normal;
   font-style: italic;
   font-display: swap;
+ /* Better Font Rendering =========== */
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale; 
 }
 
 @font-face {
@@ -1511,6 +1517,9 @@ input:-ms-input-placeholder {
   font-weight: bold;
   font-style: normal;
   font-display: swap;
+ /* Better Font Rendering =========== */
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale; 
 }
 
 @font-face {
@@ -1520,6 +1529,9 @@ input:-ms-input-placeholder {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+ /* Better Font Rendering =========== */
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale; 
 }
 
 @font-face {
@@ -1529,6 +1541,9 @@ input:-ms-input-placeholder {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+ /* Better Font Rendering =========== */
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale; 
 }
 
 @font-face {
@@ -1538,6 +1553,9 @@ input:-ms-input-placeholder {
   font-weight: 900;
   font-style: normal;
   font-display: swap;
+ /* Better Font Rendering =========== */
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale; 
 }
 
 @font-face {
@@ -1547,6 +1565,9 @@ input:-ms-input-placeholder {
   font-weight: normal;
   font-style: italic;
   font-display: swap;
+ /* Better Font Rendering =========== */
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale; 
 }
 
 @font-face {
@@ -1556,6 +1577,9 @@ input:-ms-input-placeholder {
   font-weight: bold;
   font-style: normal;
   font-display: swap;
+ /* Better Font Rendering =========== */
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale; 
 }
 
 @font-face {
@@ -1565,7 +1589,11 @@ input:-ms-input-placeholder {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
 }
+
 
 @font-face {
   font-family: 'Syne';
@@ -1574,10 +1602,10 @@ input:-ms-input-placeholder {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-}
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale; 
+}
 
 .socicon-internet:before {
   content: "\e957"; }
